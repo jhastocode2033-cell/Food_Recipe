@@ -1,5 +1,6 @@
 import FetchAPI from "../api/FetchAPI"
 import Restaurant from "../assets/Restaurant.png"
+import { Link } from "react-router-dom"
 
 export default function NavBar(){
 
@@ -41,8 +42,20 @@ export default function NavBar(){
             </div>
 
             <div className="gap-2 flex items-center">
-                <button className="px-2 py-1 rounded-2xl border border-black">Login</button>
-                <button className="px-2 py-1 rounded-2xl bg-[#fe8f35] text-white">Sign Up</button>
+            <Link
+              to="/login"
+              className="px-2 py-1 rounded-2xl border border-black"
+            >
+              Login
+            </Link>
+
+             <Link
+              to="/register"
+              className="px-2 py-1 rounded-2xl bg-[#fe8f35] text-white"
+            >
+              Sign Up
+            </Link>
+
             </div>
             </div>
 

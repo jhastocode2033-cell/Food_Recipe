@@ -11,6 +11,7 @@ export default function Hero(){
         </div>
 
         <div className="flex-1 text-center">
+            <input type="text" placeholder="Search Any Recipe..." className="border border-[#fe8f35] rounded-2xl p-2 w-[400px] " />
             <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
             DISCOVER,
             <br />
