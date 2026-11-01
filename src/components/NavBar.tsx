@@ -1,4 +1,4 @@
-import FetchAPI from "../api/FetchAPI"
+
 import Restaurant from "../assets/Restaurant.png"
 import { Link } from "react-router-dom"
 
